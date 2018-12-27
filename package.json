@@ -1,0 +1,19 @@
+{
+  "name": "mastering-nodejs",
+  "version": "1.0.0",
+  "description": "mastering node.js - studying",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btuerker/mastering-nodejs.git"
+  },
+  "author": "Burhan Tuerker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btuerker/mastering-nodejs/issues"
+  },
+  "homepage": "https://github.com/btuerker/mastering-nodejs#readme"
+}
