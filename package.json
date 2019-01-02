@@ -4,7 +4,7 @@
   "description": "mastering node.js - studying",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/btuerker/mastering-nodejs/issues"
   },
-  "homepage": "https://github.com/btuerker/mastering-nodejs#readme"
+  "homepage": "https://github.com/btuerker/mastering-nodejs#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
