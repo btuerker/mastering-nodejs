@@ -33,7 +33,7 @@ var server = http.createServer(function (req, res) {
     req.on('end', function () {
         buffer += decoder.end();
 
-        res.end('Hello, World!\n');
+        res.end(`Hello, World!\n${trimmedPath}`);
 
         console.log(`Request received on path: ${trimmedPath} with method: ${method} and with these query string objects `, queryStringObject);
         console.log(`Request received with these headers: \n `, headers);
@@ -44,3 +44,5 @@ var server = http.createServer(function (req, res) {
 server.listen(port, function () {
     console.log(`The server is listening on ${port} now`);
 });
+
+module.exports = server;

@@ -18,5 +18,9 @@
   "homepage": "https://github.com/btuerker/mastering-nodejs#readme",
   "devDependencies": {
     "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1"
   }
 }
