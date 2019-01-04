@@ -35,9 +35,9 @@ var server = http.createServer(function (req, res) {
 
         res.end(`Hello, World!\n${trimmedPath}`);
 
-        console.log(`Request received on path: ${trimmedPath} with method: ${method} and with these query string objects `, queryStringObject);
-        console.log(`Request received with these headers: \n `, headers);
-        console.log(`Request received with this payload: `, buffer);
+        // console.log(`Request received on path: ${trimmedPath} with method: ${method} and with these query string objects `, queryStringObject);
+        // console.log(`Request received with these headers: \n `, headers);
+        // console.log(`Request received with this payload: `, buffer);
     });
 });
 
