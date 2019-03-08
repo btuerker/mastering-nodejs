@@ -57,7 +57,7 @@ describe('server', () => {
                 .post('/sample')
                 .send(payloadObject)
                 .end((err, resp) => {
-                    resp.should.have.status(406);
+                    resp.should.have.status(401);
                     JSON.parse(resp.text).should.a('object');
                     JSON.parse((JSON.parse(resp.text).payload)).should.a('object');
                     JSON.parse((JSON.parse(resp.text).payload)).should.have.property('id', 1);
